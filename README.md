@@ -17,5 +17,5 @@ Para ello, vamos a necesitar los siguientes recursos:
 **Primer paso si no tienes una IP fija, usa un servicio como No-IP
 **Para configurar el dominio, apunta tu dominio a la IP publica de tu Raspberry Pi.
 **Tambien usa puertos abiertos como el 80 para HTPP y el 443 para HTPS.
-**4. Configuraicon Extra
+**4. Configuración Extra
 **
