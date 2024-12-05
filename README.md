@@ -17,6 +17,7 @@ Para ello, vamos a necesitar los siguientes recursos:
 Lo primero que tenemos que hacer es crear una página web altamente sostenible, para ello, lo que haremos será una página web sin ningún tipo de estilo, es decir, sin CSS3 solo HTML5.
 
 Para ello, diseñaremos una página que contenga los 17 ODS y la hostearemos en la raspberry con protcolo HTTPS.
+
 **3. Configuracion del dominio**
 
 Primer paso si no tienes una IP fija, usa un servicio como No-IP
