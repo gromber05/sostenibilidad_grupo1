@@ -14,15 +14,9 @@ Para ello, vamos a necesitar los siguientes recursos:
 **> Placas solares** para alimentar a la raspberry Pi.
 
 **2. Configurar el Servidor Web**
-Primer paso acceder a la Rashberry Pi
+Lo primero que tenemos que hacer es crear una página web altamente sostenible, para ello, lo que haremos será una página web sin ningún tipo de estilo, es decir, sin CSS3 solo HTML5.
 
-Luego se procede a actualizar el sistema
-
-Una vez actualizado el sistema se instalará un servidor web ya sea Nginx o Apache
-Luego se instalará el HTML
-
-Y por último se omstalará una base de datos solo si se necesita un sistema como WordPress
-
+Para ello, diseñaremos una página que contenga los 17 ODS y la hostearemos en la raspberry con protcolo HTTPS.
 **3. Configuracion del dominio**
 
 Primer paso si no tienes una IP fija, usa un servicio como No-IP
