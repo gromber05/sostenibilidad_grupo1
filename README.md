@@ -1,4 +1,4 @@
-# sostenibilidad_grupo1
+# Proyecto de Sostenibilidad - Grupo 1
 
 **1.- Preparativos Iniciales:**
 
