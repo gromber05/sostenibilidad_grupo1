@@ -19,7 +19,7 @@ Primer paso acceder a la Rashberry Pi
 Luego se procede a actualizar el sistema
 
 Una vez actualizado el sistema se instalará un servidor web ya sea Nginx o Apache
-Luego se instalrá el PHP
+Luego se instalará el HTML
 
 Y por último se omstalará una base de datos solo si se necesita un sistema como WordPress
 
