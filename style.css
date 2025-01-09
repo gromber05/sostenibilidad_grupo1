@@ -1,7 +1,16 @@
+body {
+    background: lightcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-.ods {
+.ods-group {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.ods-item {
+    width: 33%;
     justify-content: center;
 }
