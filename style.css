@@ -3,14 +3,28 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.container{
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
 .ods-group {
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
     justify-content: center;
-    margin-left: 6%;
+    
 }
 
 .ods-item {
-    width: 33%;
+    width: 100%;
     justify-content: center;
+    margin-left:3rem;
+}
+
+
+@media (max-width:600px){
+.ods-item img{
+max-width:20px;
+}
 }
