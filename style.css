@@ -16,7 +16,7 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin: 3%;
+    margin: 1%;
 }
 
 .ods-item {
@@ -28,3 +28,17 @@ body {
     scale: 1.1  ;
     transition: 0.7s;
 }
+
+@media (max-width: 768px) {
+    .ods-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ods-item {
+        width: 100%;
+        margin-bottom: 1rem;
+        scale: 0.8;
+    }
+}
+
