@@ -41,3 +41,4 @@ Con estos pasos, lograremos una solución sostenible y accesible para nuestra p�
 
 Este proyecto busca demostrar que es posible crear una web funcional con un impacto ambiental mínimo, utilizando energías renovables y tecnologías eficientes.
 
+![estadisticasconsumo.png](estadisticasconsumo.png)
