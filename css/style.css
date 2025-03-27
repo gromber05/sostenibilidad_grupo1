@@ -29,6 +29,23 @@ body {
     transition: 0.7s;
 }
 
+body.eco-mode {
+    background: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: Arial, sans-serif; /* Fuente del sistema */
+    transition: background 0.5s, color 0.5s;
+}
+
+.eco-mode .ods-item:hover {
+    scale: 1; /* Desactivar animaciones */
+    transition: none;
+}
+
+.eco-mode img {
+    filter: grayscale(100%); /* Reducir colores en imágenes */
+    opacity: 0.8; /* Reducir brillo */
+}
+
 @media (max-width: 768px) {
     .ods-group {
         flex-direction: column;
