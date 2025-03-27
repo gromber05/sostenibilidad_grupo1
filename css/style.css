@@ -29,36 +29,6 @@ body {
     transition: 0.7s;
 }
 
-body.eco-mode {
-    background: #121212; /* Fondo oscuro */
-    color: #e0e0e0; /* Texto claro */
-    font-family: Arial, sans-serif; /* Fuente del sistema */
-    transition: background 0.5s, color 0.5s;
-}
-
-.eco-mode .ods-item:hover {
-    scale: 1; /* Desactivar animaciones */
-    transition: none;
-}
-
-.eco-mode img {
-    filter: grayscale(100%); /* Reducir colores en imágenes */
-    opacity: 0.8; /* Reducir brillo */
-}
-
-@media (max-width: 768px) {
-    .ods-group {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ods-item {
-        width: 100%;
-        margin-bottom: 1rem;
-        scale: 0.8;
-    }
-}
-
 #environmental-challenges {
     background-color: #f9f9f9;
     padding: 2rem;
@@ -102,4 +72,73 @@ body.eco-mode {
 #environmental-challenges article:nth-child(even) {
     background-color: #e8f5e9;
     border-left-color: #81c784;
+}
+
+/* Modo Eco */
+body.eco-mode {
+    background: #121212;
+    color: #e0e0e0; 
+    font-family: Arial, sans-serif; 
+    transition: background 0.5s, color 0.5s;
+}
+
+body.eco-mode .container {
+    background: #1e1e1e;
+    color: #cfcfcf;
+}
+
+body.eco-mode .ods-item {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    transition: none; 
+}
+
+body.eco-mode .ods-item:hover {
+    scale: 1; 
+    transition: none;
+}
+
+body.eco-mode img {
+    filter: grayscale(100%); 
+    opacity: 0.8; 
+}
+
+body.eco-mode #environmental-challenges {
+    background-color: #1e1e1e; 
+    box-shadow: none; 
+    border-radius: 8px;
+}
+
+body.eco-mode #environmental-challenges h2 {
+    color: #81c784;
+    border-bottom: 2px solid #81c784;
+}
+
+body.eco-mode #environmental-challenges article {
+    background-color: #2e2e2e; 
+    border-left: 4px solid #4caf50; 
+    color: #cfcfcf; 
+}
+
+body.eco-mode #environmental-challenges article:nth-child(odd) {
+    background-color: #2a2a2a;
+    border-left-color: #66bb6a;
+}
+
+body.eco-mode #environmental-challenges article:nth-child(even) {
+    background-color: #252525; 
+    border-left-color: #81c784;
+}
+
+@media (max-width: 768px) {
+    .ods-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ods-item {
+        width: 100%;
+        margin-bottom: 1rem;
+        scale: 0.8;
+    }
 }
