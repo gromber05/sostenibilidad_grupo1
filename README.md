@@ -37,6 +37,14 @@ Si no dispones de una IP fija, puedes utilizar un servicio de **DNS dinámico** 
 
 Con estos pasos, lograremos una solución sostenible y accesible para nuestra página web ecológica.
 
+
+# Modo ECO
+
+Justificación:
+1. Reducción del consumo energético: Los colores oscuros y la eliminación de animaciones disminuyen el uso de energía en dispositivos.
+2. Mejor rendimiento: Al reducir scripts e imágenes, el sitio se carga más rápido, lo que también ahorra energía.
+3. Conciencia ambiental: Implementar un "Modo Eco" refuerza el compromiso del sitio web con la sostenibilidad y la responsabilidad ambiental.
+
 ---
 
 Este proyecto busca demostrar que es posible crear una web funcional con un impacto ambiental mínimo, utilizando energías renovables y tecnologías eficientes.
