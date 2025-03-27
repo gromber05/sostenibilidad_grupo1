@@ -130,6 +130,39 @@ body.eco-mode #environmental-challenges article:nth-child(even) {
     border-left-color: #81c784;
 }
 
+
+#green-computing {
+    background-color: #f0f8f5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#green-computing h2 {
+    color: #2e7d32;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#green-computing article {
+    margin-bottom: 20px;
+}
+
+#green-computing h3 {
+    color: #388e3c;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+#green-computing p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
+}
+
 @media (max-width: 768px) {
     .ods-group {
         flex-direction: column;
