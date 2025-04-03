@@ -1,0 +1,71 @@
+body {
+    background: lightcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
+    padding-top: 60px; /* Prevent content from being hidden under the fixed nav */
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding: 1rem;
+}
+
+.ods-group {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+}
+
+.ods-item {
+    width: 90%;
+    justify-content: center;
+}
+
+.ods-item:hover {
+    scale: 1.1  ;
+    transition: 0.7s;
+}
+
+@media (max-width: 768px) {
+    .ods-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ods-item {
+        width: 100%;
+        margin-bottom: 1rem;
+        scale: 0.8;
+    }
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
