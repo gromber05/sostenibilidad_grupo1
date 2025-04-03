@@ -1,4 +1,4 @@
-# Proyecto de Sostenibilidad - Grupo 1
+# Proyecto de Sostenibilidad - Grupo 33
 ### Gonzalo Romero Bernal, Luis Miguel Gomila Dominguez, Iván Roldán, Sergio Pixardo, Fran Letrán
 
 ## 1. Preparativos Iniciales
