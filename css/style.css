@@ -76,58 +76,92 @@ body {
 
 /* Modo Eco */
 body.eco-mode {
-    background: #121212;
-    color: #e0e0e0; 
-    font-family: Arial, sans-serif; 
+    background: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: Arial, sans-serif; /* Fuente del sistema */
     transition: background 0.5s, color 0.5s;
 }
 
 body.eco-mode .container {
-    background: #1e1e1e;
-    color: #cfcfcf;
+    background: #1e1e1e; /* Fondo oscuro para contenedores */
+    color: #cfcfcf; /* Texto más claro */
 }
 
 body.eco-mode .ods-item {
-    background: #1e1e1e;
-    border: 1px solid #333;
-    transition: none; 
+    background: #1e1e1e; /* Fondo oscuro para elementos */
+    border: 1px solid #333; /* Borde tenue */
+    transition: none; /* Sin animaciones */
 }
 
 body.eco-mode .ods-item:hover {
-    scale: 1; 
+    scale: 1; /* Desactivar animaciones */
     transition: none;
 }
 
 body.eco-mode img {
-    filter: grayscale(100%); 
-    opacity: 0.8; 
+    filter: grayscale(100%); /* Reducir colores en imágenes */
+    opacity: 0.8; /* Reducir brillo */
 }
 
 body.eco-mode #environmental-challenges {
-    background-color: #1e1e1e; 
-    box-shadow: none; 
+    background-color: #1e1e1e; /* Fondo oscuro */
+    box-shadow: none; /* Eliminar sombras */
     border-radius: 8px;
 }
 
 body.eco-mode #environmental-challenges h2 {
-    color: #81c784;
+    color: #81c784; /* Verde tenue para encabezados */
     border-bottom: 2px solid #81c784;
 }
 
 body.eco-mode #environmental-challenges article {
-    background-color: #2e2e2e; 
-    border-left: 4px solid #4caf50; 
-    color: #cfcfcf; 
+    background-color: #2e2e2e; /* Fondo más oscuro */
+    border-left: 4px solid #4caf50; /* Verde para destacar */
+    color: #cfcfcf; /* Texto claro */
 }
 
 body.eco-mode #environmental-challenges article:nth-child(odd) {
-    background-color: #2a2a2a;
+    background-color: #2a2a2a; /* Fondo alternativo oscuro */
     border-left-color: #66bb6a;
 }
 
 body.eco-mode #environmental-challenges article:nth-child(even) {
-    background-color: #252525; 
+    background-color: #252525; /* Fondo alternativo oscuro */
     border-left-color: #81c784;
+}
+
+body.eco-mode #green-computing {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #cfcfcf; /* Texto claro */
+    box-shadow: none; /* Eliminar sombras */
+    border-radius: 8px;
+}
+
+body.eco-mode #green-computing h2 {
+    color: #81c784; /* Verde tenue */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+body.eco-mode #green-computing article {
+    background-color: #2e2e2e; /* Fondo oscuro */
+    color: #cfcfcf; /* Texto claro */
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+body.eco-mode #green-computing h3 {
+    color: #66bb6a; /* Verde tenue para subtítulos */
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+body.eco-mode #green-computing p {
+    color: #cfcfcf; /* Texto claro */
+    line-height: 1.6;
+    font-size: 1em;
+    text-align: justify;
 }
 
 
@@ -170,6 +204,17 @@ body.eco-mode #environmental-challenges article:nth-child(even) {
     }
 
     .ods-item {
+        width: 100%;
+        margin-bottom: 1rem;
+        scale: 0.8;
+    }
+
+    body.eco-mode .ods-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body.eco-mode .ods-item {
         width: 100%;
         margin-bottom: 1rem;
         scale: 0.8;
